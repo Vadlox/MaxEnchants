@@ -1,6 +1,19 @@
-name: MaxEnchants
-version: '1.0'
+name: MaxEnchant
+version: 1.0.0
+description: A plugin that adds all possible positive enchantments to items
+author: Vadlox
 main: vadlox.dev.maxEnchants.MaxEnchants
-api-version: '1.21'
-description: The Ultimate Clans Plugin.
-website: vadlox.hydraquest.net
+api-version: 1.19
+
+commands:
+  maxenchant:
+    description: Adds all possible positive enchantments to the item you're holding
+    usage: /maxenchant
+    aliases: [maxench, enchantmax]
+
+permissions:
+  maxenchant.use:
+    description: Allows the use of the maxenchant command
+    default: op
+
+
