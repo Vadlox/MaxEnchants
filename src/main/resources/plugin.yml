@@ -1,0 +1,6 @@
+name: MaxEnchants
+version: '1.0'
+main: vadlox.dev.maxEnchants.MaxEnchants
+api-version: '1.21'
+description: The Ultimate Clans Plugin.
+website: vadlox.hydraquest.net
